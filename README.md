@@ -31,4 +31,6 @@ Epidemiological Indicators of COVID-19. If you would like to add information, ha
 
 ## WHO Publication Database
 
+The WHO maintains a database of all COVID-19 related studies. This is a good starting point if you want to contribute instead of text searches on pubmed (what I did in the beginning).
+
 * https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov
