@@ -1,5 +1,5 @@
 # covid-19-indicators
-Epidemiological Indicators of COVID-19. Just a list of Epi. Indicators for COVID-19. If you would like to add information, send a PR.
+Epidemiological Indicators of COVID-19. If you would like to add information, have ideas or found a mistake, send a PR or open an issue.
 
 
 ## [Case Fatality Rate](https://en.wikipedia.org/wiki/Case_fatality_rate)
