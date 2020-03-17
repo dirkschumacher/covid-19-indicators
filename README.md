@@ -27,3 +27,8 @@ Epidemiological Indicators of COVID-19. Just a list of Epi. Indicators for COVID
 | -------------: |-------------|-------------| -----:|-----|-----|-----|
 | 4.6    | Median  | (95% CrI: 3.5-5.9) | 18  | ? | 2020-03-02 | [(Nishiura et al., 2020), Int J Infect Dis.](https://www.ncbi.nlm.nih.gov/pubmed/32145466) |
 | 4.4      | Mean | (95% CI: 2.9−6.7) | 21  | Hong Kong from January 16 to February 15, 2020 | 2020-02-25 | [(Zhao et al., 2020), medrxiv](https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1.article-info) |
+
+
+## WHO Publication Database
+
+* https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov
