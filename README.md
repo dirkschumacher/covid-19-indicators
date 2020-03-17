@@ -20,6 +20,11 @@ Epidemiological Indicators of COVID-19. If you would like to add information, ha
 | -------------: |-------------|-------------| -----:|-----|-----|-----|
 | 5.1   | Median  | (95% CI: 4.5-5.8) | 181 | Persons with confirmed SARS-CoV-2 infection outside Hubei province, China. | 2020-03-10 | [(Lauer et al., 2020), Ann Intern Med.](https://www.ncbi.nlm.nih.gov/pubmed/32150748) |
 | 11.5     | 97.5% quantile | (95% CI: 8.2-15.6) | 181 | Persons with confirmed SARS-CoV-2 infection outside Hubei province, China. | 2020-03-10 | [(Lauer et al., 2020), Ann Intern Med.](https://www.ncbi.nlm.nih.gov/pubmed/32150748) |
+| 5.0    | Mean | (95% CrI: 4.2-6.0) | 52 | China?, excluding Wuhan residents | 2020-02-17 | [(Linton et al., 2020), J. Clin. Med..](https://www.mdpi.com/2077-0383/9/2/538) |
+| 5.6    | Mean | (95% CrI: 5.0-6.3) | 158 | China?, including Wuhan residents | 2020-02-17 | [(Linton et al., 2020), J. Clin. Med..](https://www.mdpi.com/2077-0383/9/2/538) |
+
+
+
 
 ## [Serial Interval](https://en.wikipedia.org/wiki/Serial_interval)
 
