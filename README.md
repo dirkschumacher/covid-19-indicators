@@ -10,6 +10,7 @@ Epidemiological Indicators of COVID-19. If you would like to add information, ha
 | 5.25%    | (95% CI: 4.98-5.51%) | - | Wuhan City, January 10 to February 3, 2020 | 2020-03-10 | [(Yang et al., 2020), Ann Transl Med.](https://www.ncbi.nlm.nih.gov/pubmed/32168464) |
 | 1.41%    | (95% CI: 1.38–1.45%) | - | Hubei province excluding the city of Wuhan, January 10 to February 3, 2020 | 2020-03-10 | [(Yang et al., 2020), Ann Transl Med.](https://www.ncbi.nlm.nih.gov/pubmed/32168464) |
 | 0.15%    | (95% CI: 0.12-0.18%) | - | Mainland China excluding Hubei, January 10 to February 3, 2020 | 2020-03-10 | [(Yang et al., 2020), Ann Transl Med.](https://www.ncbi.nlm.nih.gov/pubmed/32168464) |
+| 2.3%    | (95% CI: 0.75–5.3%) | - | Diamond Princess cruise ship | 2020-03-05 | [(Russel et al., 2020), LSHTM](https://cmmid.github.io/topics/covid19/severity/diamond_cruise_cfr_estimates.html) |
 | 18%    | (95% CrI: 11%-81%) | - | China, Hubai| 2020-02-10 | [Imperial College LondonCOVID-19 Response Team](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-severity-10-02-2020.pdf) |
 
 
