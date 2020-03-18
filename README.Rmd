@@ -37,7 +37,7 @@ suppressPackageStartupMessages(library(glue))
 cfr_data %>% 
   transmute(
     `Point Estimate` = percent(Estimate, accuracy = 0.01),
-    `CI` = glue("({percent(1 - UI_alpha)} {UI_Type}: {percent(UI_Lower)}-{percent(UI_Upper)})"),
+    `Uncertainty Interval` = glue("({percent(1 - UI_alpha)} {UI_Type}: {percent(UI_Lower)}-{percent(UI_Upper)})"),
     N = N,
     Place = Place,
     Time = Time,
