@@ -3,5 +3,5 @@ Estimate,UI_Type,UI_alpha,UI_Lower,UI_Upper,N,Place,Time,Age_Group,Published,DOI
 1.41%,CI,0.05,1.38%,1.45%,,Mainland China excluding Hubei,"January 10 to February 3, 2020",,2020-03-10,,"(Yang et al., 2020), Ann Transl Med.",https://www.ncbi.nlm.nih.gov/pubmed/32168464
 0.15%,CI,0.05,0.12%,0.18%,,Mainland China excluding Hubei,"January 10 to February 3, 2020",,2020-03-10,,"(Yang et al., 2020), Ann Transl Med.",https://www.ncbi.nlm.nih.gov/pubmed/32168464
 2.30%,CI,0.05,0.75%,5.30%,,Diamond Princess cruise ship,,,2020-03-05,,"(Russel et al., 2020), LSHTM",https://cmmid.github.io/topics/covid19/severity/diamond_cruise_cfr_estimates.html
-18%,CrI,0.05,11.00%,81.00%,,"China, Hubai",,,2020-02-10,,Imperial College LondonCOVID-19 Response Team,https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-severity-10-02-2020.pdf
-18%,CI,0.05,7.30%,33%,,Diamond Princess cruise ship,,70+,2020-03-05,,Imperial College LondonCOVID-19 Response Team,https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-severity-10-02-2020.pdf
+18%,CI,0.05,7.30%,33%,,Diamond Princess cruise ship,,70+,2020-03-05,,"(Russel et al., 2020), LSHTM",https://cmmid.github.io/topics/covid19/severity/diamond_cruise_cfr_estimates.html
+18%,CrI,0.05,11.00%,81.00%,,"China, Hubai",,,2020-02-10,,Imperial College London COVID-19 Response Team,https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-severity-10-02-2020.pdf

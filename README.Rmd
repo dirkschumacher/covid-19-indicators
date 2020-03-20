@@ -35,6 +35,7 @@ cfr_data <- mutate(cfr_data,
 library(scales)
 suppressPackageStartupMessages(library(glue))
 cfr_data %>% 
+  arrange(desc(Published)) %>%
   transmute(
     `Point Estimate` = percent(Estimate, accuracy = 0.01),
     `Uncertainty Interval` = glue("({percent(1 - UI_alpha)} {UI_Type}: {percent(UI_Lower)}-{percent(UI_Upper)})"),
