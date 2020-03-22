@@ -25,13 +25,16 @@ information, have ideas or found a mistake, send a PR or open an issue.
 |             11.5 | 97.5% quantile | (95% CI: 8.2-15.6)   | 181 | Persons with confirmed SARS-CoV-2 infection outside Hubei province, China. | 2020-03-10 | [(Lauer et al., 2020), Ann Intern Med.](https://www.ncbi.nlm.nih.gov/pubmed/32150748) |
 |              5.0 | Mean           | (95% CrI: 4.2-6.0)   |  52 | China?, excluding Wuhan residents                                          | 2020-02-17 | [(Linton et al., 2020), J. Clin. Med..](https://www.mdpi.com/2077-0383/9/2/538)       |
 |              5.6 | Mean           | (95% CrI: 5.0-6.3)   | 158 | China?, including Wuhan residents                                          | 2020-02-17 | [(Linton et al., 2020), J. Clin. Med..](https://www.mdpi.com/2077-0383/9/2/538)       |
+|              5.2 | Mean           | (95% CI: 4.1-7.0)    | 425 | Wuhan, Hubei Province, China, in December 2019 and January 2020            | 2020-01-29 | [(Qun et al., 2020), NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa2001316)       |
+|             12.5 | 95% quantile   | (95% CI: 4.1-7.0)    | 425 | Wuhan, Hubei Province, China, in December 2019 and January 2020            | 2020-01-29 | [(Qun et al., 2020), NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa2001316)       |
 
 ## [Serial Interval](https://en.wikipedia.org/wiki/Serial_interval)
 
-| Estimate in Days | Type   | Uncertainty Interval |  N | Place/Time                                     | Published  | Reference                                                                                                  |
-| ---------------: | ------ | -------------------- | -: | ---------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
-|              4.6 | Median | (95% CrI: 3.5-5.9)   | 18 | ?                                              | 2020-03-02 | [(Nishiura et al., 2020), Int J Infect Dis.](https://www.ncbi.nlm.nih.gov/pubmed/32145466)                 |
-|              4.4 | Mean   | (95% CI: 2.9−6.7)    | 21 | Hong Kong from January 16 to February 15, 2020 | 2020-02-25 | [(Zhao et al., 2020), medrxiv](https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1.article-info) |
+| Estimate in Days | Type   | Uncertainty Interval |   N | Place/Time                                                      | Published  | Reference                                                                                                  |
+| ---------------: | ------ | -------------------- | --: | --------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
+|              4.6 | Median | (95% CrI: 3.5-5.9)   |  18 | ?                                                               | 2020-03-02 | [(Nishiura et al., 2020), Int J Infect Dis.](https://www.ncbi.nlm.nih.gov/pubmed/32145466)                 |
+|              4.4 | Mean   | (95% CI: 2.9−6.7)    |  21 | Hong Kong from January 16 to February 15, 2020                  | 2020-02-25 | [(Zhao et al., 2020), medrxiv](https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1.article-info) |
+|              7.5 | Mean   | (95% CI: 5.3-19)     | 425 | Wuhan, Hubei Province, China, in December 2019 and January 2020 | 2020-01-29 | [(Qun et al., 2020), NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa2001316)                            |
 
 ## WHO Publication Database
 
