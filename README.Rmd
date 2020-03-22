@@ -67,6 +67,8 @@ cfr_data %>%
 
 ## [Serial Interval](https://en.wikipedia.org/wiki/Serial_interval)
 
+* "[...] 12.6% of the serial intervals in our sample were negative." [Ref](https://doi.org/10.3201/eid2606.200357). Models need to account for negative serial intervals.
+
 | Estimate in Days | Type | Uncertainty Interval           | N  | Place/Time | Published | Reference |
 | -------------: |-------------|-------------| -----:|-----|-----|-----|
 | 3.96    | Mean  | (95% CI: 3.53-4.39) | 468  | Mainland China outside of Hubei Province during January 21–February 8, 2020 | 2020-03-19 | [(Du et al., 2020), Emerging Infectious Diseases](https://doi.org/10.3201/eid2606.200357) |
