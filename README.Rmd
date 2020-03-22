@@ -4,12 +4,14 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
+```{r, include = FALSE, message=FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   echo = FALSE,
   comment = "#>"
 )
+
+suppressPackageStartupMessages(library(meta))
 ```
 # covid-19-indicators
 Epidemiological Indicators of COVID-19. If you would like to add information, have ideas or found a mistake, send a PR or open an issue.
@@ -62,9 +64,6 @@ cfr_data %>%
 | 12.5  | 95% quantile | (95% CI: 4.1-7.0) | 425 | Wuhan, Hubei Province, China, in December 2019 and January 2020 | 2020-01-29 | [(Qun et al., 2020), NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa2001316) |
 
 
-
-
-
 ## [Serial Interval](https://en.wikipedia.org/wiki/Serial_interval)
 
 * "[...] 12.6% of the serial intervals in our sample were negative." [Ref](https://doi.org/10.3201/eid2606.200357). Models need to account for negative serial intervals.
@@ -76,6 +75,33 @@ cfr_data %>%
 | 4.6    | Median  | (95% CrI: 3.5-5.9) | 18  | ? | 2020-03-02 | [(Nishiura et al., 2020), Int J Infect Dis.](https://www.ncbi.nlm.nih.gov/pubmed/32145466) |
 | 4.4      | Mean | (95% CI: 2.9−6.7) | 21  | Hong Kong from January 16 to February 15, 2020 | 2020-02-25 | [(Zhao et al., 2020), medrxiv](https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1.article-info) |
 | 7.5   | Mean | (95% CI: 5.3-19) | 425 | Wuhan, Hubei Province, China, in December 2019 and January 2020 | 2020-01-29 | [(Qun et al., 2020), NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa2001316) |
+
+### Pooled Mean
+
+I used the `meta` package to pool the various reported means of the serial interval. Please be careful as this might not be the right way to pool means of serial intervals. But it is something. If you have any suggestions leave an issue.
+
+```{r,message=FALSE,fig.width=10}
+# pooling effect sizes
+studies <- tibble::tribble(
+  ~label, ~n, ~mean, ~ci_lower, ~ci_upper,
+  "Qun et al. 2020", 425, 7.5, 5.3, 19,
+  "Nishiura et al., 2020", 28, 4.7, 3.7, 6.0,
+  "Zhao et al. 2020", 21, 4.4, 2.9, 6.7,
+  "Du et al., 2020", 468, 3.96, 3.53, 4.39
+)
+m <- metagen(
+  studies$mean, 
+  n.e = studies$n,
+  lower = studies$ci_lower,
+  upper = studies$ci_upper,
+  studlab = studies$label,
+  level.ci = 0.95,
+  sm = "MD",
+  method.tau = "REML"	
+)
+forest(m)
+```
+
 
 ## WHO Publication Database
 

@@ -42,6 +42,15 @@ information, have ideas or found a mistake, send a PR or open an issue.
 |              4.4 | Mean   | (95% CI: 2.9−6.7)    |  21 | Hong Kong from January 16 to February 15, 2020                              | 2020-02-25 | [(Zhao et al., 2020), medrxiv](https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1.article-info) |
 |              7.5 | Mean   | (95% CI: 5.3-19)     | 425 | Wuhan, Hubei Province, China, in December 2019 and January 2020             | 2020-01-29 | [(Qun et al., 2020), NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa2001316)                            |
 
+### Pooled Mean
+
+I used the `meta` package to pool the various reported means of the
+serial interval. Please be careful as this might not be the right way to
+pool means of serial intervals. But it is something. If you have any
+suggestions leave an issue.
+
+![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+
 ## WHO Publication Database
 
 The WHO maintains a database of all COVID-19 related studies. This is a
