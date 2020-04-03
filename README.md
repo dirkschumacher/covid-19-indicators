@@ -51,6 +51,14 @@ suggestions leave an issue.
 
 ![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
+## Proportion Pre-Symptomatic Transmission
+
+| Estimate | Uncertainty Interval |  N | Place/Time       | Published  | Reference                                                                      |
+| -------: | -------------------- | -: | ---------------- | ---------- | ------------------------------------------------------------------------------ |
+|      44% | \-                   | 77 | Guangzhou, China | 2020-03-15 | [(Xi et al., 2020), medrxiv](https://doi.org/10.1101/2020.03.05.20031815)      |
+|      48% | (95% CI: 32-67%)     | \- | Singapore        | 2020-03-05 | [(Ganyani et al., 2020), medrxiv](https://doi.org/10.1101/2020.03.05.20031815) |
+|      62% | (95% CI: 50-76%)     | \- | Tianjin, China   | 2020-03-05 | [(Ganyani et al., 2020), medrxiv](https://doi.org/10.1101/2020.03.05.20031815) |
+
 ## WHO Publication Database
 
 The WHO maintains a database of all COVID-19 related studies. This is a
