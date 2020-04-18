@@ -53,11 +53,12 @@ suggestions leave an issue.
 
 ## Proportion Pre-Symptomatic Transmission
 
-| Estimate | Uncertainty Interval |  N | Place/Time       | Published  | Reference                                                                      |
-| -------: | -------------------- | -: | ---------------- | ---------- | ------------------------------------------------------------------------------ |
-|      44% | \-                   | 77 | Guangzhou, China | 2020-03-15 | [(Xi et al., 2020), medrxiv](https://doi.org/10.1101/2020.03.05.20031815)      |
-|      48% | (95% CI: 32-67%)     | \- | Singapore        | 2020-03-05 | [(Ganyani et al., 2020), medrxiv](https://doi.org/10.1101/2020.03.05.20031815) |
-|      62% | (95% CI: 50-76%)     | \- | Tianjin, China   | 2020-03-05 | [(Ganyani et al., 2020), medrxiv](https://doi.org/10.1101/2020.03.05.20031815) |
+| Estimate | Uncertainty Interval |   N | Place/Time       | Published  | Reference                                                                                 |
+| -------: | -------------------- | --: | ---------------- | ---------- | ----------------------------------------------------------------------------------------- |
+|      46% | \-                   | 391 | Shenzen, China   | 2020-04-01 | [(Liu et al., 2020), Wellcome Open Res](https://doi.org/10.12688/wellcomeopenres.15788.1) |
+|      44% | (95% CI: 25–69%)     |  77 | Guangzhou, China | 2020-03-15 | [(Xi et al., 2020), Nat Med](https://doi.org/10.1038/s41591-020-0869-5)                   |
+|      48% | (95% CI: 32-67%)     |  \- | Singapore        | 2020-03-05 | [(Ganyani et al., 2020), medrxiv](https://doi.org/10.1101/2020.03.05.20031815)            |
+|      62% | (95% CI: 50-76%)     |  \- | Tianjin, China   | 2020-03-05 | [(Ganyani et al., 2020), medrxiv](https://doi.org/10.1101/2020.03.05.20031815)            |
 
 ## WHO Publication Database
 
